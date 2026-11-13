@@ -1,0 +1,69 @@
+{
+  "classifier": "Logistic regression",
+  "best_params": {
+    "classifier__C": 10.0
+  },
+  "cv_macro_f1": 0.7500729022933624,
+  "test_scores": {
+    "accuracy": 0.7525,
+    "macro_precision": 0.7519222323570149,
+    "macro_recall": 0.7517825311942957,
+    "macro_f1": 0.7518221441021908,
+    "macro_roc_auc": 0.9142019681006731
+  },
+  "class_report": {
+    "Low": {
+      "precision": 0.8153846153846154,
+      "recall": 0.803030303030303,
+      "f1-score": 0.8091603053435115,
+      "support": 132.0
+    },
+    "Medium": {
+      "precision": 0.6287878787878788,
+      "recall": 0.6287878787878788,
+      "f1-score": 0.6287878787878788,
+      "support": 132.0
+    },
+    "High": {
+      "precision": 0.8115942028985508,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.8175182481751825,
+      "support": 136.0
+    },
+    "accuracy": 0.7525,
+    "macro avg": {
+      "precision": 0.7519222323570149,
+      "recall": 0.7517825311942957,
+      "f1-score": 0.7518221441021908,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.7525189520624304,
+      "recall": 0.7525,
+      "f1-score": 0.7524791051429208,
+      "support": 400.0
+    }
+  },
+  "labels": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "confusion_matrix": [
+    [
+      106,
+      25,
+      1
+    ],
+    [
+      24,
+      83,
+      25
+    ],
+    [
+      0,
+      24,
+      112
+    ]
+  ]
+}
